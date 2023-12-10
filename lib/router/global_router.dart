@@ -1,10 +1,15 @@
 import 'package:flutter_inappwebview/flutter_inappwebview.dart';
+import 'package:flutter_sample/page/buuny_page.dart';
+import 'package:flutter_sample/page/cuber_page.dart';
 import 'package:flutter_sample/page/freezed_page.dart';
 import 'package:flutter_sample/page/model_viewer_page.dart';
 import 'package:flutter_sample/page/webview.dart';
+import 'package:flutter_sample/rubiks/rubiks_page.dart';
 import 'package:go_router/go_router.dart';
 
 import '../page/amin_page.dart';
+import '../page/planet_page.dart';
+import '../page/ruby_page.dart';
 import '../page/webview_.dart';
 import '../page/main_page.dart';
 import '../page/sembast_page.dart';
@@ -18,5 +23,10 @@ GoRouter globalRouter = GoRouter(
     GoRoute(path: "/anim", builder: (context, state) => const AnimPage()),
     GoRoute(path: "/inappWebview", builder: (context, state) => const InAppWebviewPage()),
     GoRoute(path: "/webview", builder: (context, state) => const WebviewPage()),
+    GoRoute(path: "/cuber", builder: (context, state) => const CuberPage()),
+    GoRoute(path: "/bunny", builder: (context, state) => const BunnyPage()),
+    GoRoute(path: "/ruby", builder: (context, state) => const RubyPage()),
+    GoRoute(path: "/planet", builder: (context, state) => const PlanetPage()),
+    GoRoute(path: "/Rubik", builder: (context, state) => const RubikPage()),
   ],
 );

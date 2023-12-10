@@ -55,6 +55,36 @@ class _MainPageState extends State<MainPage> {
               },
               child: const Text('WebView'),
             ),
+            TextButton(
+              onPressed: () {
+                context.push('/cuber');
+              },
+              child: const Text('Cuber'),
+            ),
+            TextButton(
+              onPressed: () {
+                context.push('/bunny');
+              },
+              child: const Text('Bunny'),
+            ),
+            TextButton(
+              onPressed: () {
+                context.push('/ruby');
+              },
+              child: const Text('Ruby'),
+            ),
+            TextButton(
+              onPressed: () {
+                context.push('/planet');
+              },
+              child: const Text('planet'),
+            ),
+            TextButton(
+              onPressed: () {
+                context.push('/rubik');
+              },
+              child: const Text('Rubik'),
+            ),
           ],
         ),
       ),
