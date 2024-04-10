@@ -85,6 +85,30 @@ class _MainPageState extends State<MainPage> {
               },
               child: const Text('Rubik'),
             ),
+            TextButton(
+              onPressed: () {
+                context.push('/store_animation');
+              },
+              child: const Text('Store animation'),
+            ),
+            TextButton(
+              onPressed: () {
+                context.push('/obj_3d');
+              },
+              child: const Text('Obj_3d'),
+            ),
+            TextButton(
+              onPressed: () {
+                context.push('/print_cube');
+              },
+              child: const Text('Print Cube'),
+            ),
+            TextButton(
+              onPressed: () {
+                context.push('/animated_toggle');
+              },
+              child: const Text('Animated toggle'),
+            ),
           ],
         ),
       ),

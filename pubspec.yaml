@@ -49,6 +49,11 @@ dependencies:
   flutter_cube: ^0.1.1
   three_dart: ^0.0.16
   flutter_gl: ^0.0.21
+  vector_math: ^2.1.4
+  animated_toggle_switch:
+    git:
+      url: https://github.com/splashbyte/animated_toggle_switch.git
+      ref: 58-backgroundColor-is-displayed-inaccurately
   zflutter:
     git:
       url: https://github.com/IbrahimTabba/zflutter.git
@@ -89,6 +94,8 @@ flutter:
     - assets/ruby_rose/
     - assets/earth/
     - assets/stars/
+    - assets/store/
+    - assets/obj/
 
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/assets-and-images/#resolution-aware
